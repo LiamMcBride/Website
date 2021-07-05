@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    
 }
 
 .title{
     font-size: 3em;
     font-weight: bold;
     color: rgb(31, 31, 31);
+    overflow: hidden;
 }
 
 header{
@@ -16,6 +18,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: rgb(250, 230, 201);
+    overflow: hidden;
 }
 
 body{
@@ -35,6 +38,9 @@ body{
 h3{
     font-size: 1em; 
     pointer-events: none;
+    overflow: hidden;
+    width: 100%;
+    
     
 }
 
@@ -44,6 +50,7 @@ h3{
     padding-top: 5px;
     padding-left: 5px;
     margin: 3px;
+    overflow: hidden;
 }
 
 .journal-page{
@@ -83,11 +90,14 @@ input{
     border: none;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    overflow: hidden;
+    width: 100%;
 }
 
 
 h2{
     font-size: 2em;
+    overflow: hidden;
 }
 
 .submit-btn{
