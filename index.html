@@ -1,103 +1,31 @@
 <!DOCTYPE html>
-<style>
-	.rectangle{
-    	 height: 800px;
-         width: 600px;
-         background-color: #555;
-         margin-left: auto;
-         margin-right: auto;
-         margin-top: 50px;
-    }
-    .innerHolder{
-         
-         margin-left: auto;
-         margin-right: auto;
-         margin-top: 50px;
-    }
-    .headshot{
-    	 height: 200px;
-         width: 200px;
-         background-color: #555;
-         margin-left: 200px;
-         margin-right: 200px;
-         margin-top: 50px;
-    }
-    .mediaBox{
-        height: 50px;
-        width: 50px;
-        background-color: #555;
-        
-        
-         
-    }
-    .icon{
-        width: 45px;
-        height: 45px;
-        padding: 2.5px;
-    }
-</style>
-<html>
-<body >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Journal</title>
+</head>
+<body>
+    <header class="title">Journal</header>
 
-
-<div class="rectangle">
-	<img class = "headshot" src = "IMG_1687.JPG" alt = "Headshot Image">
-    <div class = "innerHolder">
-      <h1 style="font-family:Times New Roman Bold; text-align:center; color: rgb(27, 204, 115)">
-          Liam McBride
-      </h1>
-      <p style="font-family:Times New Roman; text-align:center; color:white">
-      	  Programmer and Student
-      </p>
-      <p style="margin-top:50px; margin-left:100px; margin-right:100px; text-align:center;">
-          Studying Computer Science at Virginia Tech University
-      </p>
-      <p style="margin-top:50px; margin-left:100px; margin-right:100px; text-align:center">
-        Get in contact!
-    </p>
-      <div style="width:250px; height:75px; background-color: rgb(27, 204, 115); margin-left: auto; margin-right: auto;">
-        <table style="padding-top: 10px; margin-left: auto; margin-right: auto;">
-            <tr>
-                <td>
-                    <div class="mediaBox">
-                        <img class="icon" src = "instagram.png" alt="Instagram">
-                    </div>
-                </td>
-                <td>
-                    <div class="mediaBox"></div>
-                </td>
-                <td>
-                    <div class="mediaBox"></div>
-                </td>
-                <td>
-                    <div class="mediaBox"></div>
-                </td>
-            </tr>
-        </table>
+    <div class="nav-menu">
+        <div>
+            <h3>Menu</h3>
+            <i class="fas fa-arrow-up"></i>
+        </div>
         
-      </div>
+       
     </div>
-	<table>
-    	<tr>
-        	
-        </tr>
-    </table>
-</div>
-
-<table style = "width:100%">
-	<tr>
-    	<h1 style = "color:white"> Hello </h1>
-    </tr>
-    <tr>
-    	<td>
-        <h1 style = "color:white"> Hello </h1>
-        </td>
-        <td>
-        	
-        </td>
-    	
-    </tr>
-</table>
-
+    <div class="journal-page">
+        <h2 class="date-header"></h2>
+        <hr>
+        
+        <textarea class="journal-entry"></textarea>
+        <button class="submit-btn">Finished</button>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
